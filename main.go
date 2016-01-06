@@ -85,5 +85,7 @@ func main() {
 				printContext(fileName, lineNumber)
 			}
 		}
+
+		os.Stdout.Sync()
 	}
 }
